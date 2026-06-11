@@ -13,16 +13,15 @@ const App = () => {
         <Navbar />
         <HeroSection />
       </div>
-      <div id="about" className="h-screen w-screen bg-slate-950 text-white">
+      <div id="about" className="bg-slate-950 text-white">
         <AboutSection />
-      </div>
+      </div>   
       <div id="projects" className="h-screen w-screen bg-slate-950 text-white">
         <ProjectsPage />
       </div>
       <div id="contact" className="h-screen w-screen bg-slate-950 text-white">
         <ContactPage />
       </div>
-
       <div>
         <Footer />
       </div>
