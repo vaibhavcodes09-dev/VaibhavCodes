@@ -9,4 +9,4 @@ export const projects = [{
     imgAlt: "Job Tracker Application",
     githubUrl: "https://github.com/vaibhavcodes09-dev/job-tracker-app",
     liveUrl: "https://job-tracker-app-sigma-six.vercel.app/",
-}]
+}, ]

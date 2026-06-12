@@ -1,18 +1,19 @@
 import React from "react";
 import img from "../assets/vaibhavprofile.jpg";
 import { education } from "../data/education";
+import ViewIcon from "../assets/eye.svg?react";
 
 const AboutSection = () => {
   return (
     <section className=" text-white p-8">
-      <div className="flex items-end">
+      <div className="flex">
         <h2 className="text-6xl px-4 text-white/70 inline-block font-semibold">
           About
         </h2>
         <div className="border-b-4 w-full px-4 border-white/30"></div>
       </div>
-      <div className="flex">
-        <div className="w-full p-4">
+      <div className="lg:flex ">
+        <div className="w-full p-4 items-center justify-center flex lg:block">
           <img
             src={img}
             alt="profile"
@@ -78,7 +79,7 @@ const AboutSection = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 mt-8 rounded-xl bg-white text-black font-medium hover:scale-105 transition"
             >
-              View CV
+              View CV <ViewIcon />
             </a>
           </div>
         </div>

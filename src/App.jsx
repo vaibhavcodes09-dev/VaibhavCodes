@@ -16,10 +16,10 @@ const App = () => {
       <div id="about" className="bg-slate-950 text-white">
         <AboutSection />
       </div>   
-      <div id="projects" className="h-screen w-screen bg-slate-950 text-white">
+      <div id="projects" className="bg-slate-950 text-white">
         <ProjectsPage />
       </div>
-      <div id="contact" className="h-screen w-screen bg-slate-950 text-white">
+      <div id="contact" className="bg-slate-950 text-white">
         <ContactPage />
       </div>
       <div>

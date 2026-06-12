@@ -31,15 +31,15 @@ const ContactPage = () => {
     }
   };
   return (
-    <div className=" p-8">
+    <div className="p-8">
       <div>
-        <div className="flex items-end">
+        <div className="flex">
           <h2 className="text-6xl px-4 text-white/70 inline-block font-semibold">
             Contact
           </h2>
           <div className="border-b-4 w-full px-4 border-white/30"></div>
         </div>
-        <div className="flex mt-16 justify-between ">
+        <div className="flex md:flex-row flex-col mt-16 items-center md:justify-between md:items-start  ">
           <div className="flex ">
             <img
               src={img}
@@ -50,7 +50,7 @@ const ContactPage = () => {
               Vaibhav Prajapati
             </h3>
           </div>
-          <div className="w-1/2">
+          <div className="md:w-1/2 mt-15 md:mt-0 ">
             <h3 className="text-3xl text-white/80 font-semibold mb-4">
               Send me a message
             </h3>
