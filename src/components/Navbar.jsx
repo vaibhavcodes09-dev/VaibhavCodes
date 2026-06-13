@@ -2,7 +2,6 @@ import { useState } from "react";
 import "../styles/glass.css";
 import MenuIcon from "../assets/menu.svg?react";
 import CrossIcon from "../assets/x.svg?react";
-import Logo from "../assets/VaibhavCodes_logo.svg?react";
 import LogoIcon from "../assets/logo.png";
 
 const Navbar = () => {
