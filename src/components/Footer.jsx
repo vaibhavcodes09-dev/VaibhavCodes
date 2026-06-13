@@ -6,7 +6,7 @@ import GithubIcon from "../assets/github-brands-solid.svg?react";
 
 const Footer = () => {
   return (
-    <div className="bg-slate-950 border-t-2  text-white p-8">
+    <div className="bg-slate-950 border-t-2 border-white/30  text-white p-8">
       <div className="flex flex-col md:flex-row justify-around ">
         <div className="md:w-1/3 md:px-6">
           <h4 className="text-3xl text-white/70 font-medium mb-4">
