@@ -3,12 +3,13 @@ import "../styles/glass.css";
 import MenuIcon from "../assets/menu.svg?react";
 import CrossIcon from "../assets/x.svg?react";
 import Logo from "../assets/VaibhavCodes_logo.svg?react";
+import LogoIcon from "../assets/logo.png";
 
 const Navbar = () => {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
   return (
-    <nav className="liquid-glass mt-4 rounded-lg w-[90%] sm:w-[80%] md:w-[50%] flex justify-around mx-auto fixed top-0 left-0 right-0 z-10">
-      <Logo className="w-12 h-12 mx-4 my-2" />
+    <nav className="liquid-glass mt-4 h-16 rounded-lg w-[90%] sm:w-[80%] md:w-[50%] flex justify-around mx-auto fixed top-0 left-0 right-0 z-10">
+      <img src={LogoIcon} alt="Logo" className="scale-200 md:pl-1" />
       <ul className="hidden md:flex px-6 py-4 gap-9 justify-around items-center ">
         <li>
           <a href="#home">Home</a>
